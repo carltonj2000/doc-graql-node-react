@@ -1,0 +1,13 @@
+{
+  "name": "doc-graql-node-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/carltonj2000/doc-graql-node-react.git",
+  "author": "Carlton Joseph <carlton.joseph@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "list": "docker-compose exec listing-service bash",
+    "user": "docker-compose exec users-service bash",
+    "up": "docker-compose up"
+  }
+}
